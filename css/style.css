@@ -45,6 +45,8 @@ body {
     width: calc(100% - 100px);
 }
 
+
+
 @keyframes animate {
     0% {
         background-image: url(../img/clima2.jpg);
