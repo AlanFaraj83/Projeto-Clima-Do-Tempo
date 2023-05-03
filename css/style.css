@@ -34,6 +34,16 @@ body {
     padding: 20px;
 }
 
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #dbc8c82b;
+    color: azure;
+    width: calc(100% - 100px);
+}
 
 @keyframes animate {
     0% {
