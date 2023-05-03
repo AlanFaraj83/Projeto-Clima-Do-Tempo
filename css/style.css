@@ -27,6 +27,13 @@ body {
    
 }
 
+.caixa-maior {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+}
+
 
 @keyframes animate {
     0% {
