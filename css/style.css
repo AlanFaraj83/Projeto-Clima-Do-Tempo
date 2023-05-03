@@ -32,6 +32,8 @@ body {
     opacity: 0.8;
     border-radius: 25px;
     padding: 20px;
+    width: 95%;
+    max-width: 450px;
 }
 
 .input-cidade {
@@ -42,8 +44,58 @@ body {
     font-size: 20px;
     background-color: #dbc8c82b;
     color: azure;
-    width: calc(100% - 100px);
+    width: calc(100% - 50px);
 }
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+
+}
+
+.botao-busca:hover {
+    background-color: cadetblue;
+}
+
+.img-busca {
+    width: 25px;
+    height: 22px;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.headline-cidade {
+    color: azure;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temperatura {
+    color: azure;
+    font-size: 15px;
+}
+
+@keyframes img-previsao {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 0; }
+}
+
+.img-previsao {
+    -webkit-animation: img-previsao .75s linear infinite;
+    -moz-animation: img-previsao .75s linear infinite;
+    -ms-animation: img-previsao .75s linear infinite;
+    -o-animation: img-previsao .75s linear infinite;
+    animation: img-previsao .75s linear infinite;
+ }
+
 
 
 
@@ -64,5 +116,8 @@ body {
         background-image: url(../img/clima6.jpg);
     }
 
+   
+
+   
     
 }
