@@ -93,6 +93,7 @@ body {
     color: azure;
     margin-left: 20px;
     font-size: 19px;
+    text-transform: capitalize;
 }
 
 .umidade {

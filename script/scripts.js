@@ -5,8 +5,9 @@ const key = "455417a5d6ff4161bfce1b2a49bf66d1"
 function colocarDadosNaTela(dados) {
     console.log(dados)
     document.querySelector(".headline-cidade").innerHTML= "Tempo em " + dados.name
-    document.querySelector(".temperatura").innerHTML= dados.main.temp
+    document.querySelector(".temperatura").innerHTML= Math.floor(dados.main.temp)+"°C"
     document.querySelector(".texto-clima").innerHTML= dados.weather[0].description
+    document.querySelector(".umidade").innerHTML= "Umidade: " + dados.main.humidity+"%"
 
 
 }
