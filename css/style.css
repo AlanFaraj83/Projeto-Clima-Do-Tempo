@@ -79,7 +79,26 @@ body {
 
 .temperatura {
     color: azure;
-    font-size: 15px;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-clima {
+    color: azure;
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+.umidade {
+    color: azure;
+    font-size: 19px;
+    margin-top: 20px;
 }
 
 @keyframes img-previsao {
