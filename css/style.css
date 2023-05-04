@@ -29,7 +29,7 @@ body {
 
 .caixa-maior {
     background: #000000;
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 25px;
     padding: 20px;
     width: 95%;
@@ -109,11 +109,11 @@ body {
 }
 
 .img-previsao {
-    -webkit-animation: img-previsao .75s linear infinite;
-    -moz-animation: img-previsao .75s linear infinite;
-    -ms-animation: img-previsao .75s linear infinite;
-    -o-animation: img-previsao .75s linear infinite;
-    animation: img-previsao .75s linear infinite;
+    -webkit-animation: img-previsao .79s linear infinite;
+    -moz-animation: img-previsao .79s linear infinite;
+    -ms-animation: img-previsao .79s linear infinite;
+    -o-animation: img-previsao .79s linear infinite;
+    animation: img-previsao .79s linear infinite;
  }
 
 
